@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişilik & Psikoloji Quizleri | MindTest</title>
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS BAĞLANTISI -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ANA KAPSAYICI -->
+    <div class="app">
+
+        <!-- QUIZ KARTI -->
+        <div class="quiz-card" id="quiz-box">
+            <h1 class="logo">🧠 MindTest</h1>
+            <p class="tagline">Kendini Keşfet</p>
+
+            <h2 id="question">Soru yükleniyor...</h2>
+
+            <div id="answers">
+                <!-- Butonlar JS ile gelecek -->
+            </div>
+        </div>
+
+        <!-- SONUÇ KARTI -->
+        <div class="quiz-card hidden" id="result-box">
+            <h1>📊 Sonuç</h1>
+            <p id="result-text"></p>
+
+            <button class="restart-btn" onclick="location.reload()">
+                🔁 Tekrar Dene
+            </button>
+        </div>
+
+    </div>
+
+    <!-- JAVASCRIPT BAĞLANTISI -->
+    <script src="script.js"></script>
+
+</body>
+</html>
